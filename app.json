@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Milk Tracker",
+    "slug": "milk-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.milkledger.app"
+    },
+    "android": {
+      "package": "com.milkledger.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F7FA",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "162e7318-c5fc-4441-9aec-3b5ec63b14db"
+      }
+    }
+  }
+}
