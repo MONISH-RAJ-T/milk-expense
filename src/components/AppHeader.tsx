@@ -53,7 +53,7 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
           ]}
         >
           <Image
-            source={require('../../assets/cow_mascot.png')}
+            source={require('../../assets/cow_mascot.jpg')}
             style={styles.avatarImage}
             resizeMode="cover"
           />

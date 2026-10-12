@@ -67,7 +67,7 @@ export const SignInScreen: React.FC<SignInScreenProps> = ({ navigation }) => {
             <View style={styles.header}>
               <View style={styles.mascotWrapper}>
                 <Image
-                  source={require('../../assets/cow_mascot.png')}
+                  source={require('../../assets/cow_mascot.jpg')}
                   style={styles.mascotImage}
                   resizeMode="contain"
                 />
